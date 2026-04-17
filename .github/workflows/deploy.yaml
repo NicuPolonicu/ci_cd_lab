@@ -31,4 +31,8 @@ jobs:
 
   compile:
     # TODO 02 - Make sure that the `test` job is run before `compile`
+    runs-on: ubuntu-latest
     needs: test
+    steps:
+      - name: Compile binary
+        run: go build -o myapp
