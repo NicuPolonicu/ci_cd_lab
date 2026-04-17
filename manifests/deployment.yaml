@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/nicupolonicu/ci_cd_lab:latest
+          image: ghcr.io/nicupolonicu/ci_cd_lab@sha256:dklsajdlksad
           ports:
             - containerPort: 8080
